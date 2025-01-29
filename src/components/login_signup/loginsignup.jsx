@@ -5,7 +5,6 @@ import './loginsignup.css'
 function loginsignup() {
   return (
     <div>
-
     </div>
   )
 }
