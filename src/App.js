@@ -8,9 +8,9 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <Navbar />
         <Routes>
-          <Navbar />
-        <Route path='/Home' element={<Home />}></Route>
+          <Route path='/Home' element={<Home />}></Route>
           <Route path='/login' element={<Login />}></Route>
         </Routes>
       </BrowserRouter>
